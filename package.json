@@ -1,0 +1,20 @@
+{
+  "name": "build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Warning: No tests created yet.\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/favourikhuebor/COMP2156.git"
+  },
+  "bugs": {
+    "url": "https://github.com/favourikhuebor/COMP2156/issues"
+  },
+  "homepage": "https://github.com/favourikhuebor/COMP2156#readme"
+}
