@@ -3,8 +3,11 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Warning: No tests created yet.\""
-  },
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "echo \"Warning: No tests created yet.\"",
+  "eject": "react-scripts eject"
+}
   "keywords": [],
   "author": "",
   "license": "ISC",
