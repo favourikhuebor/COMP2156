@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "stable"
+dist: focal
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: github_tokenn
+  local_dir: build
+  on:
+    branch: main
+
+before_deploy:
+  - gem install bundler
+  - bundle update --bundler
+

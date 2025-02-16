@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Warning: No tests created yet.\""
+    "test": "echo \"Warning: No tests created yet.\"",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -16,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/favourikhuebor/COMP2156/issues"
   },
-  "homepage": "https://github.com/favourikhuebor/COMP2156#readme"
+  "homepage": "https://favourikhuebor.github.io/COMP2156",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
 }
